@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: url("../assets/fondo.jpg") center center no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header,
+.contenedor-botones {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img-encabezado {
+  width: 20vw;
+}
+
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 3rem 6rem;
+}
+
+button {
+  background-color: #54b534;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 70px #54b534;
+  transition: all ease-in 1s;
+}
+
+button:hover {
+  background-color: #64c242;
+}
+
+.img-buscar {
+  width: 10vw;
+}
+
+small{
+    text-align: center;
+}
+
+.contenedor-botones {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 3rem;
+}
+
+
+.card {
+  flex-basis: 20%;
+  border-radius: 30px;
+  overflow: hidden;
+  color: #191c2c;
+  box-shadow: 1px 1px 20px #fff;
+  height: fit-content;
+}
+.img-card{
+    height: fit-content;
+}
+
+.text-card {
+  background-color: #f3f4f4;
+  padding: 30px;
+}
+
+
+@media (max-width: 1024px) {
+ #resultado{
+    flex-direction: column;
+ }  
+}
+  
