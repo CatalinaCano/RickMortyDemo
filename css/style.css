@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background: url("../assets/fondo.jpg") center center no-repeat;
+  background: url("../assets/fondo.jpg") center center repeat;
   background-size: cover;
   height: fit-content;
 }
@@ -19,6 +19,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 *,
@@ -40,7 +41,7 @@ header,
 }
 
 .img-encabezado {
-  width: 20vw;
+  width: 500px;
 }
 
 #resultado {
@@ -70,7 +71,7 @@ button:hover {
 }
 
 .img-buscar {
-  width: 10vw;
+  width: 200px;
 }
 
 small{
