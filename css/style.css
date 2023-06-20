@@ -109,5 +109,12 @@ small{
  #resultado{
     flex-direction: column;
  }  
+ .card{
+    flex-basis: 100%;
+ }
+ #resultado{
+    margin: 50px;
+ }
+
 }
   
